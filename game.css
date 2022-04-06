@@ -1,0 +1,44 @@
+.game{
+    padding: 10px;
+}
+
+.game input{
+    padding: 5px;
+    outline: none;
+}
+
+#images{
+    border: 1px solid gray;
+}
+
+#images img{
+    width: 50px;
+    padding: 10px;
+}
+
+#imageList{
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.person{
+    margin: 5px;
+    width: fit-content;
+}
+
+
+.result{
+    display: flex;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    justify-content: space-around;
+}
+
+#subResult{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
